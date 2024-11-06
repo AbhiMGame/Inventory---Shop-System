@@ -1624,7 +1624,6 @@ MonoBehaviour:
   subQuantity: {fileID: 1412125878}
   titleTxt: {fileID: 417515372}
   quantityTxt: {fileID: 304945637}
-  item: {fileID: 0}
   playerStatus: {fileID: 11400000, guid: 3e3d298f35c603b4796714ddd1f7c5b6, type: 2}
   playerInventorySO: {fileID: 11400000, guid: 0a8f29b1128769c4abb54689d0823423, type: 2}
   shopList: {fileID: 11400000, guid: 74ebd01f68ce95c4a929f2ee801cf7cd, type: 2}
@@ -1632,7 +1631,6 @@ MonoBehaviour:
   tabController: {fileID: 1002738512}
   infoBarController: {fileID: 52446561}
   playerItemDisplay: {fileID: 2097240935}
-  quantity: 0
 --- !u!1 &468735475
 GameObject:
   m_ObjectHideFlags: 0
@@ -2672,14 +2670,13 @@ MonoBehaviour:
   playerItemDisplay: {fileID: 2097240935}
   shopItemDisplay: {fileID: 1258412491}
   playerStatus: {fileID: 11400000, guid: 3e3d298f35c603b4796714ddd1f7c5b6, type: 2}
-  itemData: {fileID: 11400000, guid: 5f08c1dba1fb9cf498c3273c4e8cbaa2, type: 2}
+  itemData: {fileID: 11400000, guid: c6640ccd3084d144796ae293519d6408, type: 2}
   playerInventorySO: {fileID: 11400000, guid: 0a8f29b1128769c4abb54689d0823423, type: 2}
-  shopItemList: {fileID: 11400000, guid: 895e7948dd398fa42a940096407c08ca, type: 2}
+  shopItemList: {fileID: 11400000, guid: 74ebd01f68ce95c4a929f2ee801cf7cd, type: 2}
   buysellPanel: {fileID: 429291662}
   infoBarController: {fileID: 52446561}
   buySellController: {fileID: 429291665}
   notificationDisplay: {fileID: 1662068560}
-  transcationBtnText: {fileID: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -3465,12 +3462,8 @@ MonoBehaviour:
   weaponBtn: {fileID: 1011408596}
   consumableBtn: {fileID: 1879949300}
   treasureBtn: {fileID: 686962864}
-  pfItem: {fileID: 6637097129293252068, guid: cfe3b988e6093574186c8f0c4f302ef2, type: 3}
+  pfItem: {fileID: 6637097129293252068, guid: 33ce2942a2e8edf4b9aeaeb33f83aae2, type: 3}
   itemHolder: {fileID: 1992156550}
-  mitem: []
-  titem: []
-  citem: []
-  witem: []
 --- !u!1 &1008478599
 GameObject:
   m_ObjectHideFlags: 0
@@ -5065,7 +5058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerInventorySO: {fileID: 11400000, guid: 0a8f29b1128769c4abb54689d0823423, type: 2}
-  pfItem: {fileID: 6637097129293252068, guid: cfe3b988e6093574186c8f0c4f302ef2, type: 3}
+  pfItem: {fileID: 6637097129293252068, guid: 33ce2942a2e8edf4b9aeaeb33f83aae2, type: 3}
 --- !u!1 &1662068559
 GameObject:
   m_ObjectHideFlags: 0
@@ -5693,7 +5686,7 @@ Canvas:
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
+  m_OverridePixelPerfect: 1
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
